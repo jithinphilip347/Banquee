@@ -52,11 +52,16 @@ const Help = () => {
                     </p>
                     <hr />
                     <h1 className=" flex justify-between leading-[60px] text-xl font-sans font-semibold">Can I have two Banko accounts?<FiPlus className=" relative top-5 text-customGreen"/></h1>
+                    
                 </div>
+                <hr />
                 <div>   
                 </div>
+                
             </div>
+           
         </div>
+        
     </div>
   )
 }
