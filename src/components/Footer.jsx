@@ -4,7 +4,8 @@ const Footer = () => {
   return (
     <div className=" h-screen">
       <hr />
-      <div className=" mx-36 relative top-[900px]">
+      <hr className="relative top-[900px]"/>
+      <div className=" mx-36 relative top-[1000px]">
         <div className=" flex">
           <div>
             <h1 className="text-customGreen font-semibold text-2xl md:text-3xl">banquee.</h1>
@@ -47,7 +48,6 @@ const Footer = () => {
               </div>
             </div>
 
-
           </div>
         </div>
         <div className="flex items-center justify-between relative top-14">
@@ -62,7 +62,8 @@ const Footer = () => {
         </div>
 
       </div>
-
+      <hr  className="relative top-[1010px] mx-36"/>
+     
     </div>
   )
 }
