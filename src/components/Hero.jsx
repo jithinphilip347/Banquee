@@ -1,9 +1,13 @@
+import Noise from '../assets/noise.png';
+import Contactless from '../assets/signal.png';
+import  Visa from '../assets/visa.png';
+
 
 const Hero = () => {
   return (
-    <div className=" bg-clearDay h-screen">
+    <div className=" bg-clearDay h-screen  overflow-hidden">
        <div className="flex flex-col items-center justify-center h-[400px] ">
-  <div className="text-center font-sans py-5 ">
+  <div className="text-center font-sans py-4 ">
     <p className=" text-md font-medium leading-10 relative bottom-3">Features</p>
     <h1 className="text-6xl	leading-10	font-medium	tracking-wide">All in one card.</h1>
   </div>
@@ -34,6 +38,143 @@ const Hero = () => {
     </p>
   </div>
 </div>
+   <div className=" flex gap-2">
+    <div className=''>
+    <div className='  bg-blend-screen relative bg-gradient-to-r from-customCream1 to-customCream2 w-96 h-72  right-[122px] rounded-xl top-[155px]  rotate-90'>
+                    <img src={Noise} alt="" className="object-fill w-60 h-40 opacity-5 "  />
+                    <div className=" flex items-center gap-2 relative  bottom-32 justify-between px-8">
+                        <h2 className="text-white text-xl font-sans leading-3 font-semibold">banquee.</h2>
+                        <img src={Contactless} alt="contactless-icon"  className=" w-5 h-5"/>
+                    </div>
+                    <div>
+                    <h2 className="font-kreditback text-3xl relative bottom-20 left-6  text-white font-semibold">1234 5678 9000 0000</h2>
+                </div>
+                <div className=" flex items-center justify-between relative bottom-14 text-white p-3">
+                    <div className="flex flex-col relative left-6 ">
+                        <p className="text-[8px] font-sans font-thin ">Card Holder</p>
+                        <h2 className=" text-[12px] font-semibold ">John Doe</h2>
+                    </div>
+                    <div className=' relative right-12'>
+                        <p className="text-sm font-sans font-thin  ">Expiry Date</p>
+                        <h2 className=" text-sm font-semibold ">09/28</h2>
+                    </div>
+                    <div>
+                        <img src={Visa} alt="" className="w-14 h-14" />
+                    </div>
+                </div>
+    </div>
+    </div>
+
+
+    <div>
+    <div className='  bg-blend-screen relative bg-gradient-to-r from-customGray1 to-customGray2 w-96 h-72  right-[200px] rounded-xl top-[86px]  rotate-90'>
+                    <img src={Noise} alt="" className="object-fill w-60 h-40 opacity-5 "  />
+                    <div className=" flex items-center gap-2 relative  bottom-32 justify-between px-8">
+                        <h2 className="text-white text-xl font-sans leading-3 font-semibold">banquee.</h2>
+                        <img src={Contactless} alt="contactless-icon"  className=" w-5 h-5"/>
+                    </div>
+                    <div>
+                    <h2 className="font-kreditback text-3xl relative bottom-20 left-6  text-white font-semibold">1234 5678 9000 0000</h2>
+                </div>
+                <div className=" flex items-center justify-between relative bottom-14 text-white p-3">
+                    <div className="flex flex-col relative left-6 ">
+                        <p className="text-[8px] font-sans font-thin ">Card Holder</p>
+                        <h2 className=" text-[12px] font-semibold ">John Doe</h2>
+                    </div>
+                    <div className=' '>
+                        <p className="text-sm font-sans font-thin relative right-14 ">Expiry Date</p>
+                        <h2 className=" text-sm font-semibold relative right-9">09/28</h2>
+                    </div>
+                    <div>
+                        <img src={Visa} alt="" className="w-14 h-14" />
+                    </div>
+                </div>
+    </div>
+    </div>
+
+
+    <div>
+    <div className='  bg-blend-screen relative bg-gradient-to-r from-customGreen to-customGreen2 w-96 h-72  right-[275px] rounded-xl top-[24px]  rotate-90'>
+                    <img src={Noise} alt="" className="object-fill w-60 h-40 opacity-5 "  />
+                    <div className=" flex items-center gap-2 relative  bottom-32 justify-between px-8">
+                        <h2 className="text-white text-xl font-sans leading-3 font-semibold">banquee.</h2>
+                        <img src={Contactless} alt="contactless-icon"  className=" w-5 h-5"/>
+                    </div>
+                    <div>
+                    <h2 className="font-kreditback text-3xl relative bottom-20 left-6  text-white font-semibold">1234 5678 9000 0000</h2>
+                </div>
+                <div className=" flex items-center justify-between relative bottom-14 text-white p-3">
+                    <div className="flex flex-col relative left-6 ">
+                        <p className="text-[8px] font-sans font-thin ">Card Holder</p>
+                        <h2 className=" text-[12px] font-semibold ">John Doe</h2>
+                    </div>
+                    <div className=' '>
+                        <p className="text-sm font-sans font-thin relative right-14 ">Expiry Date</p>
+                        <h2 className=" text-sm font-semibold relative right-9">09/28</h2>
+                    </div>
+                    <div>
+                        <img src={Visa} alt="" className="w-14 h-14" />
+                    </div>
+                </div>
+    </div>
+    </div>
+
+
+    <div>
+    <div className='  bg-blend-screen relative bg-gradient-to-r from-customGray1 to-customGray2 w-96 h-72  right-[355px] rounded-xl top-[86px]  rotate-90'>
+                    <img src={Noise} alt="" className="object-fill w-60 h-40 opacity-5 "  />
+                    <div className=" flex items-center gap-2 relative  bottom-32 justify-between px-8">
+                        <h2 className="text-white text-xl font-sans leading-3 font-semibold">banquee.</h2>
+                        <img src={Contactless} alt="contactless-icon"  className=" w-5 h-5"/>
+                    </div>
+                    <div>
+                    <h2 className="font-kreditback text-3xl relative bottom-20 left-6  text-white font-semibold">1234 5678 9000 0000</h2>
+                </div>
+                <div className=" flex items-center justify-between relative bottom-14 text-white p-3">
+                    <div className="flex flex-col relative left-6 ">
+                        <p className="text-[8px] font-sans font-thin ">Card Holder</p>
+                        <h2 className=" text-[12px] font-semibold ">John Doe</h2>
+                    </div>
+                    <div className=' '>
+                        <p className="text-sm font-sans font-thin relative right-14 ">Expiry Date</p>
+                        <h2 className=" text-sm font-semibold relative right-9">09/28</h2>
+                    </div>
+                    <div>
+                        <img src={Visa} alt="" className="w-14 h-14" />
+                    </div>
+                </div>
+    </div>
+    </div>
+
+
+    <div>
+    <div className='  bg-blend-screen relative bg-gradient-to-r from-customCream1 to-customCream2 w-96 h-72 top-[155px]  rounded-xl   right-[432px]  rotate-90 '>
+                    <img src={Noise} alt="" className="object-fill w-60 h-40 opacity-5 "  />
+                    <div className=" flex items-center gap-2 relative  bottom-10 justify-between px-8">
+                        <h2 className="text-white text-xl font-sans leading-3 font-semibold">banquee.</h2>
+                        <img src={Contactless} alt="contactless-icon"  className=" w-5 h-5"/>
+                    </div>
+                    <div>
+                    <h2 className="font-kreditback text-3xl relative bottom-2 left-6  text-white font-semibold">1234 5678 9000 0000</h2>
+                </div>
+                <div className=" flex items-center justify-between relative bottom-1 text-white p-3">
+                    <div className="flex flex-col relative left-6 ">
+                        <p className="text-[8px] font-sans font-thin ">Card Holder</p>
+                        <h2 className=" text-[12px] font-semibold ">John Doe</h2>
+                    </div>
+                    <div className=' relative right-12'>
+                        <p className="text-sm font-sans font-thin  ">Expiry Date</p>
+                        <h2 className=" text-sm font-semibold ">09/28</h2>
+                    </div>
+                    <div>
+                        <img src={Visa} alt="" className="w-14 h-14" />
+                    </div>
+                </div>
+    </div>
+    </div>
+
+
+   </div>
     </div>
   )
 }
