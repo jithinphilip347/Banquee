@@ -19,7 +19,7 @@ const Hero = () => {
 
   <div className="flex items-center justify-center gap-5 font-inter text-sm font-normal leading-7 py-4">
     <button className="bg-customGreen text-white rounded-md h-10 w-36 ">Open Account</button>
-    <p className="flex items-center gap-3 text-customGreen">
+    <p className="flex items-center gap-3 text-customGreen hover:cursor-pointer">
       Compare Cards
       <svg 
         xmlns="http://www.w3.org/2000/svg" 

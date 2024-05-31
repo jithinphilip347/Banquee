@@ -29,7 +29,7 @@ const Notification = () => {
         </div>
              </div>
              <div>
-             <p className=" relative left-[20px] top-28 text-base font-inter text-customGreen flex gap-2">Compare Cards<FaArrowRight className=" relative top-1"/></p>
+             <p className=" relative left-[20px] top-28 text-base font-inter text-customGreen flex gap-2 hover:cursor-pointer">Compare Cards<FaArrowRight className=" relative top-1"/></p>
 
              </div>
             </div>

@@ -7,7 +7,7 @@ const Blog = () => {
       <div className=" mx-40 relative top-[700px]">
         <div className=" flex justify-between">
           <h1 className=" text-5xl font-sans font-semibold">Blog</h1>
-          <p className=" flex text-customGreen gap-2">Support all
+          <p className=" flex text-customGreen gap-2 hover:cursor-pointer">Support all
           <FaArrowRight  className=" relative top-1"/>
           </p>
         </div>

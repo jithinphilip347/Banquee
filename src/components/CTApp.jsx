@@ -44,8 +44,8 @@ const CTApp = () => {
          </div>
         </div>
         <div className=" flex items-center relative top-28 gap-4 left-4">
-          <img src={Appstore} alt="" className=" w-40 "/>
-          <img src={Playstore} alt="" className=" w-44" />
+          <img src={Appstore} alt="" className=" w-40 hover:cursor-pointer"/>
+          <img src={Playstore} alt="" className=" w-44 hover:cursor-pointer" />
         </div>
         </div>
       </div>

@@ -8,7 +8,7 @@ const Footer = () => {
       <div className=" mx-36 relative top-[1000px]">
         <div className=" flex">
           <div>
-            <h1 className="text-customGreen font-semibold text-2xl md:text-3xl">banquee.</h1>
+            <h1 className="text-customGreen font-semibold text-2xl md:text-3xl hover:cursor-pointer">banquee.</h1>
           </div>
           <div className=" flex items-center gap-32 relative left-56 "> 
 

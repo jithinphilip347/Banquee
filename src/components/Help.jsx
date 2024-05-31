@@ -30,7 +30,7 @@ const Help = () => {
                 </div>
                  </div>
                  <div>
-                 <p className=" flex text-customGreen gap-2 relative left-4">Support all
+                 <p className=" flex text-customGreen gap-2 relative left-4 hover:cursor-pointer">Support all
                         <FaArrowRight  className=" relative top-1"/>
                         </p>
                  </div>

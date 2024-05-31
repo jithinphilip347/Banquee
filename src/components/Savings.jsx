@@ -13,7 +13,7 @@ const Savings = () => {
                 <p>Saving Accounts</p>
                 <h1 className="leading-[70px] text-5xl font-sans font-normal">Organize your <br /> money the right way</h1>
                 <p className=" text-base font-sans font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br /> eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <p className=" relative left-[700px] top-2 text-base font-inter text-customGreen flex gap-2">All Features<FaArrowRight className=" relative top-1"/></p>
+                <p className=" relative left-[700px] top-2 text-base font-inter text-customGreen flex gap-2 hover:cursor-pointer">All Features<FaArrowRight className=" relative top-1"/></p>
                </div>
                <div className=" flex items-center gap-4 relative top-10">
                 <div className="flex flex-col gap-5">                   

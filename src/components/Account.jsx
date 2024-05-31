@@ -86,8 +86,8 @@ const Account = () => {
                 </div>
          </div>
           <div className=' flex gap-4 relative bottom-28 left-2 '>
-          <button className="bg-customGreen text-white rounded-md h-10 w-32 ">Open Account</button>
-          <button className="bg-white text-black rounded-md border h-10 w-32 ">Compare Cards</button>
+          <button className="bg-customGreen text-white rounded-md h-10 w-32 hover:cursor-pointer">Open Account</button>
+          <button className="bg-white text-black rounded-md border h-10 w-32 hover:cursor-pointer ">Compare Cards</button>
           </div>
         </div>
 
