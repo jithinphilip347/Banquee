@@ -21,8 +21,8 @@ import { FiUser } from "react-icons/fi";
 
 const Feature = () => {
   return (
-    <div className=" flex  gap-14 h-full px-40 m-28 ">
-      <div className="w-[600px] sm:w-[600px] ">
+    <div className=" flex sm:flex gap-14 h-full px-40 m-28 sm:mx-4 ">
+      <div className="w-[600px] ">
         <div>
           <h1 className="leading-[70px] text-6xl  font-normal">
             One app.
