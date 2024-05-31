@@ -6,20 +6,18 @@ import  Visa from '../assets/visa.png';
 const Hero = () => {
   return (
     <div className=" bg-clearDay h-screen  overflow-hidden">
-       <div className="flex flex-col items-center justify-center h-[400px] ">
-  <div className="text-center font-sans py-4 ">
-    <p className=" text-md font-medium leading-10 relative bottom-3">Features</p>
-    <h1 className="text-6xl	leading-10 sm:text-4xl	font-medium	tracking-wide">All in one card.</h1>
+<div className="flex flex-col items-center justify-center h-auto md:h-[400px] px-4">
+  <div className="text-center font-sans py-4">
+    <p className="text-sm md:text-md font-medium leading-7 md:leading-10 relative bottom-1 md:bottom-3">Features</p>
+    <h1 className="text-4xl md:text-6xl leading-tight md:leading-10 font-medium tracking-wide">All in one card.</h1>
   </div>
-
-  <div className="text-center text-md font-medium leading-7 font-inter py-4">
+  <div className="text-center text-sm md:text-md font-medium leading-6 md:leading-7 font-inter py-2 md:py-4">
     <p>Senectus et netus et malesuada fames ac turpis.</p>
     <p>Sagittis vitae et leo duis ut diam.</p>
   </div>
-
-  <div className="flex items-center justify-center gap-5 font-inter text-sm font-normal leading-7 py-4">
-    <button className="bg-customGreen text-white rounded-md h-10 w-36 ">Open Account</button>
-    <p className="flex items-center gap-3 text-customGreen hover:cursor-pointer">
+  <div className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-5 font-inter text-sm font-normal leading-7 py-2 md:py-4">
+    <button className="bg-customGreen text-white rounded-md h-10 w-36">Open Account</button>
+    <p className="flex items-center gap-1 md:gap-3 text-customGreen hover:cursor-pointer">
       Compare Cards
       <svg 
         xmlns="http://www.w3.org/2000/svg" 
@@ -27,7 +25,7 @@ const Hero = () => {
         viewBox="0 0 24 24" 
         strokeWidth={1.5} 
         stroke="currentColor" 
-        className="w-5 h-5"
+        className="w-4 md:w-5 h-4 md:h-5"
       >
         <path 
           strokeLinecap="round" 
@@ -38,6 +36,7 @@ const Hero = () => {
     </p>
   </div>
 </div>
+
    <div className=" flex gap-2">
     <div className=''>
     <div className='  bg-blend-screen relative bg-gradient-to-r from-customCream1 to-customCream2 w-96 h-72  right-[122px] rounded-xl top-[155px]  rotate-90'>
