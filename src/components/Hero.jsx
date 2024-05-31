@@ -9,7 +9,7 @@ const Hero = () => {
        <div className="flex flex-col items-center justify-center h-[400px] ">
   <div className="text-center font-sans py-4 ">
     <p className=" text-md font-medium leading-10 relative bottom-3">Features</p>
-    <h1 className="text-6xl	leading-10	font-medium	tracking-wide">All in one card.</h1>
+    <h1 className="text-6xl	leading-10 sm:text-4xl	font-medium	tracking-wide">All in one card.</h1>
   </div>
 
   <div className="text-center text-md font-medium leading-7 font-inter py-4">
