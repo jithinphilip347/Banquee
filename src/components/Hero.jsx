@@ -15,7 +15,7 @@ const Hero = () => {
     <p>Senectus et netus et malesuada fames ac turpis.</p>
     <p>Sagittis vitae et leo duis ut diam.</p>
   </div>
-  <div className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-5 font-inter text-sm font-normal leading-7 py-2 md:py-4">
+  <div className="flex  md:flex-row items-center justify-center gap-2 md:gap-5 font-inter text-sm font-normal leading-7 py-2 md:py-4">
     <button className="bg-customGreen text-white rounded-md h-10 w-36">Open Account</button>
     <p className="flex items-center gap-1 md:gap-3 text-customGreen hover:cursor-pointer">
       Compare Cards
